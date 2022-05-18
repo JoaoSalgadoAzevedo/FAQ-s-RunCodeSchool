@@ -1,9 +1,11 @@
 
-export function Pesquisa(){
-    return(
-        <div>Página pesquisa</div>
-    )
-}
+
+// export function Pesquisa(){
+//     const [state, setState] = useState("")
+//     return(
+//         <div><input value={state} onChange={(e) => setState(e.target.value)}></input>Página pesquisa</div>
+//     )
+// }
 
 
 //Components

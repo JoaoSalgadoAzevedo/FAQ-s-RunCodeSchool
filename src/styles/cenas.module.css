@@ -1,19 +1,209 @@
 .main{
     /* background-repeat: no-repeat;
-     background-size: cover;  */
+     background-size: cover;   */
     background-image: url("../Img/fundo-bg.png");
     height: 100vh;
     width: 100vw;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
     
 } 
 .main2{
-    /* background-repeat: no-repeat;
-     background-size: cover;  */
+     background-repeat: no-repeat;
+     background-size: cover;  
     background-image: url("../Img/fundo-bg-black.png");
     height: 100vh;
     width: 100vw;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    margin-top: 5%;
     
 } 
+
+.submeter{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background-color: #ff0054;
+    border: none;
+} 
+
+.duvidasMainPage{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    height: 0px;
+    width: 0px; 
+    display: flex;
+    margin-top: 30vh;
+    margin-left: 3vw;
+    position: absolute;
+    
+
+
+    
+}
+/* .duvidasMainPage img{
+    width: px;
+    height: 15px;
+    
+} */
+.imagem{
+    width: 200px !important;
+    border: none !important;
+
+}
+
+/* App Module
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+/Main Content/
+.teste {
+    width: 80vw;
+    overflow: hidden;
+}
+body {
+    font-family: Open Sans,sans-serif;
+    --font-family: "Open Sans",sans-serif;
+    --monospaced-font-family: "Fira Mono",monospace;
+    --spacing-border-radius: 2px;
+    --spacing-border-radius-double: 4px;
+    --spacing-border-radius-half: 1px;
+    --icon-size: 24px;
+    --icon-card-size: 20px;
+    --color-primary-darker: #0794b3;
+    --color-primary: #0ad3ff;
+    --color-primary-lighter: #adf0ff;
+    --color-primary-lightest: #ccf6ff;
+    --color-primary-contrast: #fff;
+    --color-accent: #ff0054;
+    --color-accent-darker: #b8003d;
+    --color-accent-darkest: #602;
+    --color-accent-lighter: #ffadc9;
+    --color-accent-lightest: #ffd6e4;
+    --color-accent-lightestest: #fff5f8;
+    --color-accent-contrast: #fff;
+    --color-accent-light-contrast: #1d1d1d;
+    --color-text: #1d1d1d;
+    --color-background: #fff;
+    --color-shadow: rgba(29,29,29,.4);
+    --color-dark-grey: #1d1d1d;
+    --color-grey: #7a7a7a;
+    --color-light-grey: #b7b7b7;
+    --color-lighter-grey: #d9d9d9;
+    --color-lightest-grey: #eee;
+    --color-off-white: #f5f5f5;
+    --color-white: #fff;
+    --color-code-background: #fff;
+    --color-success: #03dd03;
+    --color-light-contrast: #f5f5f5;
+    --color-dark-success: #02a102;
+    --color-dark-success-contrast: #f5f5f5;
+    --color-warning: #faa613;
+    --color-orange: #ed532f;
+    --color-error: #e0004b;
+    --color-gold: #ffce00;
+    --color-silver: #bcbcbc;
+    --color-bronze: #cd7f32;
+    --drag-input-animation: 200ms;
+    }
+[15:07]
+/Sidebar.module 
+.main {
+    width: 20vw;
+    overflow: hidden;
+    height: 100vh;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}/
+ .teste
+{
+display: flex;
+flex-direction: column;
+border-radius: var(--spacing-border-radius);
+background: var(--color-off-white);
+box-shadow: 0 0 0 -1px var(--color-light-grey);
+transition: box-shadow .2s ease-in-out;
+}
+/*
+{
+    box-sizing: border-box;
+    }
+
+    a {
+        color: var(--color-primary-darker);
+        font-weight: 600;
+        font-size: .875rem;
+        }
+
+
+    Box texto JavaScript
+    body .dark-mode {
+--color-text: #f5f5f5;
+--color-primary-darker: #adf0ff;
+Mostrar 21 variáveis CSS não usadas
+a:any-link {
+color: -webkit-link;
+cursor: auto;
+text-align: right;
+color: var(--color-primary-darker);
+box-sizing: border-box;
+display: block;
+.Typography_hintDdN5r {
+font-family: Open Sans,sans-serif;
+font-weight: 400;
+font-size: .75rem;
+line-height: 1.75rem;
+Typography_boldPtWQF {
+font-weight: 700;
+}
+}
+Cor verde sucesso
+.Typography_success__QS8Gs {
+color: var(--color-success);
+}
+
+}
+
+
+
+ dimensao 624 x 60
+padding 16/
+/
+body .dark-mode {
+    --color-text: #f5f5f5;
+    --color-background: #000;
+    --color-shadow: hsla(0,0%,96%,0.4);
+    --color-dark-grey: #fff;
+    --color-grey: #f5f5f5;
+    --color-light-grey: #b7b7b7;
+    --color-lighter-grey: #333;
+    --color-lightest-grey: #272727;
+    --color-off-white: #1d1d1d;
+    --color-white: #000;
+    --color-code-background: #fff;
+    --color-primary-darker: #adf0ff;
+    --color-primary: #0ad3ff;
+    --color-primary-lighter: #0794b3;
+    --color-primary-lightest: #045162;
+    --color-primary-contrast: #fff;
+    --color-accent: #ff0054;
+    --color-accent-darker: #ffadc9;
+    --color-accent-lighter: #b8003d;
+    --color-accent-lightest: #301;
+    --color-accent-lightestest: #301;
+    --color-accent-contrast: #fff;
+    --color-accent-light-contrast: #1d1d1d;
+    } /*
 
 
 /* .main{
