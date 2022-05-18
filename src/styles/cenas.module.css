@@ -1,0 +1,21 @@
+.main{
+    /* background-repeat: no-repeat;
+     background-size: cover;  */
+    background-image: url("../Img/fundo-bg.png");
+    height: 100vh;
+    width: 100vw;
+    
+} 
+.main2{
+    /* background-repeat: no-repeat;
+     background-size: cover;  */
+    background-image: url("../Img/fundo-bg-black.png");
+    height: 100vh;
+    width: 100vw;
+    
+} 
+
+
+/* .main{
+  background-image: url(../Img/Background.jpg);
+}  */
