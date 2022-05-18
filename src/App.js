@@ -22,13 +22,25 @@ function App() {
         <Route path="/pesquisa" element={
           (<div className={styles.main2}>
             <input className="barraPesquisa" type="text" placeholder="Pesquisa..." />
-            <Link to={"/"}>
+            <Link to={"/novaPergunta"}>
 
-              <button className="duvidasMainPage">Voltar para trás</button>
+              <button className="duvidasMainPage">Submeter Nova Pergunta</button>
             </Link>
           </div>)} />
 
+            <Route path="/novaPergunta" element={(
+              <div className={styles.main2}>
+                <input type="text" className="boxPerguntas"/>
+                <Link to={"/"}>
+                  
+                <button className="duvidasMainPage">Submeter</button>
+                </Link>
+                
+              </div>
+            )}>
 
+
+            </Route>
 
 
         <Route path="/" element={(
